@@ -6,5 +6,5 @@ main()
 	printf("Input a string(put enter to the end): \n");
 	while(getchar() != '\n')
 		cnt++;
-	printf("%d", cnt);
+	printf("%d/n", cnt);
 }
