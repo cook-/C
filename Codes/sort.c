@@ -23,10 +23,10 @@ main()
 				max = arr[j];
 				max_index = j;
 			}
+		}
 		tmp = arr[i];
 		arr[i] = max;
 		arr[max_index] = tmp;
-		}
 	}
 
 	for (i = 0; i != size; ++i)
