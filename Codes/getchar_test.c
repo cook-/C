@@ -5,6 +5,7 @@ main()
 	char c;
 	printf("Input a character: \n");
 	c = getchar();
-	printf("This is your input character");
+	printf("This is your input character: \n");
 	putchar(c);
+	putchar('\n');
 }
