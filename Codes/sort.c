@@ -23,6 +23,9 @@ main()
 		arr[max_index] = tmp;
 		}
 	}
+
+	for (i = 0; i != size; ++i)
+		printf("%d ", arr[i]);
 	free(arr);
 
 }
