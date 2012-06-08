@@ -8,10 +8,10 @@ main()
 	char d = 'p';
 
 	printf("Expected output: \n");
-	printf("a = 15,    15, 17, F\n");
-	printf("b = 123.1234567, 123.1234567, 123.1234, 1.2341234567e+02\n");
-	printf("c = 12345678.1234567, 12345678.1234567, 12345678.1234\n");
-	printf("d = p,        p\n");
+	printf("a = 15,    15, 17, f\n");
+	printf("b = 123.1235, 123.1235, 123.1235, 1.231235e+02\n");
+	printf("c = 12345678.1234567, 12345678.1234567, 12345678.1235\n");
+	printf("d = p,        p\n\n");
 
 	printf("Actual output: \n");
 	printf("a = %d, %5d, %o, %x\n", a, a, a, a);
