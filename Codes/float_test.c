@@ -2,6 +2,6 @@
 #include <stdio.h>
 main()
 {
-	float a = 123456.789e5;
+	float a = 123456.789;
 	printf("%f\n", a);
 }
