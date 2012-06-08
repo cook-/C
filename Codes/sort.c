@@ -9,7 +9,11 @@ main()
 	scanf("%d", &size);
 	arr = (int*)malloc(size*sizeof(int));
 
-	int i, j, max, max_index, tmp;
+	int i;
+	for (i = 0; i != size; ++i)
+		scanf("%d ", &arr[i]);
+
+	int j, max, max_index, tmp;
 	for (i = 0; i != size; ++i) {
 		for (j = i+1; j != size; ++j) {
 			max = arr[i];
