@@ -5,5 +5,5 @@ main()
 	int a;
 	printf("Input a number\n");
 	scanf("%ld", &a);
-	printf("%ld", a);
+	printf("%ld\n", a);
 }
