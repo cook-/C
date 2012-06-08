@@ -1,5 +1,5 @@
 /* output the bit size of different data types */
-#include <stdioh>
+#include <stdio.h>
 main()
 {
 	int i;
