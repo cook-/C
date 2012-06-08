@@ -7,7 +7,7 @@ main()
 	int size;
 	printf("Enter the number of integers you want to sort: ");
 	scanf("%d", &size);
-	printf("Enter %d integers(put one sapce to separate): ", size);
+	printf("Enter %d integers(one space to separate and enter -1 at the end): ", size);
 
 	arr = (int*)malloc(size*sizeof(int));
 	int i;
