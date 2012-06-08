@@ -7,8 +7,9 @@ main()
 	int size;
 	printf("Enter the number of integers you want to sort: ");
 	scanf("%d", &size);
-	arr = (int*)malloc(size*sizeof(int));
+	printf("Enter %d integers(put one sapce to separate): ", size);
 
+	arr = (int*)malloc(size*sizeof(int));
 	int i;
 	for (i = 0; i != size; ++i)
 		scanf("%d ", &arr[i]);
