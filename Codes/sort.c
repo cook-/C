@@ -16,9 +16,9 @@ main()
 
 	int j, max, max_index, tmp;
 	for (i = 0; i != size; ++i) {
+		max = arr[i];
+		max_index = i;
 		for (j = i+1; j != size; ++j) {
-			max = arr[i];
-			max_index = i;
 			if (max < arr[j]) {
 				max = arr[j];
 				max_index = j;
