@@ -1,6 +1,6 @@
 /* sort the elements of an array from largest to smallest */
 #include <stdio.h>
-// #include <stdlib.h>
+#include <stdlib.h>
 main()
 {
 	int *arr;
