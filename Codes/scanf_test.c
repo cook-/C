@@ -2,8 +2,8 @@
 #include <stdio.h>
 main()
 {
-	int a;
-	printf("Input a number\n");
-	scanf("%ld", &a);
-	printf("%ld\n", a);
+	int a, b, c;
+	printf("Input three integers(one space to separate): \n");
+	scanf("%ld %ld %ld", &a, &b, &c);
+	printf("Your input numbers are: %ld %ld %ld\n", a, b, c);
 }
