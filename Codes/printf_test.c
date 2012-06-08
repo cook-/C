@@ -1,4 +1,4 @@
-\* print different types of format *\
+/* print different types of format */
 #include <stdio.h>
 main()
 {
