@@ -4,13 +4,13 @@ main()
 {
 	int a = 15;
 	float b = 123.1234567;
-	double c = 12345678.1234567;
+	double c = 12345678.123456789;
 	char d = 'p';
 
 	printf("Expected output: \n");
 	printf("a = 15,    15, 17, f\n");
 	printf("b = 123.1235, 123.1235, 123.1235, 1.231235e+02\n");
-	printf("c = 12345678.1234567, 12345678.1234567, 12345678.1235\n");
+	printf("c = 12345678.1234568, 12345678.1234568, 12345678.1235\n");
 	printf("d = p,        p\n\n");
 
 	printf("Actual output: \n");
