@@ -11,7 +11,7 @@ main()
 
 	arr = (int*)malloc(size*sizeof(int));
 	int i;
-	for (i = 0; i != size; ++i)
+	for (i = 0; i != size - 1; ++i)
 		scanf("%d ", &arr[i]);
 
 	int j, max, max_index, tmp;
