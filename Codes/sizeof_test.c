@@ -7,5 +7,5 @@ main()
 	float f;
 	double d;
 	char c;
-	printf("type\tsize\n int\t%d\n long\t%d\n float\t%d\n double\t%d\n char\t%d\n", sizeof(i), sizeof(l), sizeof(f), sizeof(d), sizeof(c));
+	printf(" type\tsize\n int\t%2d\n long\t%2d\n float\t%2d\n double\t%2d\n char\t%2d\n", sizeof(i), sizeof(l), sizeof(f), sizeof(d), sizeof(c));
 }
