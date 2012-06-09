@@ -4,5 +4,5 @@
 main()
 {
 	static char str[] = "C Language";
-	printf("The length of %s is %d\n", str, strlen(str));
+	printf("The length of \"%s\" is %d. \n", str, strlen(str));
 }
