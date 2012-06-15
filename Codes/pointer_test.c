@@ -5,7 +5,7 @@ swap(int *p1, int *p2)
 	int tmp;
 	tmp = *p1;
 	*p1 = *p2;
-	*p1 = tmp;
+	*p2 = tmp;
 }
 
 sort(int *p1, int *p2, int *p3)
