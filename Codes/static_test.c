@@ -1,6 +1,6 @@
 /* Use static variable to calculate 1!, 2!, ..., n! */
 #include <stdio.h>
-int fac(n)
+int fac(int n)
 {
 	static result = 1;
 	return result*n;
