@@ -11,7 +11,7 @@ main()
 {
 	int n;
 	printf("Input an integer: \n");
-	scanf("%d", n);
+	scanf("%d", &n);
 	int i;
 	for (i = 1; i != n+1; ++i) {
 		printf("%d!=%d\n", i, fac(i));
