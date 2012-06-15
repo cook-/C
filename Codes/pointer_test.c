@@ -27,5 +27,5 @@ main()
 	p2 = &b;
 	p3 = &c;
 	sort(p1, p2, p3);
-	printf("%d %d %d\n", a, b, c);
+	printf("%d %d %d\n", *p1, *p2, *p3);
 }
