@@ -13,7 +13,7 @@ main()
 	puts("Method 2: \n");
 	ptr = arr;
 	for (i = 0; i != 10; ++i)
-		*ptr++ = i;
+		*(ptr++) = i;
 	for (i = 0; i != 10; ++i)
-		printf("a[%d] = %d\n", i, *ptr++);
+		printf("a[%d] = %d\n", i, *(ptr++));
 }
