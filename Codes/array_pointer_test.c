@@ -13,7 +13,9 @@ main()
 	puts("Method 2: \n");
 	ptr = arr;
 	for (i = 0; i != 10; ++i)
-		*(++ptr) = i;
+		*ptr++ = i;
+	//notice the value of ptr have changed, so we have to initialize it to arr.
+	ptr = arr;
 	for (i = 0; i != 10; ++i)
-		printf("a[%d] = %d\n", i, *(++ptr));
+		printf("a[%d] = %d\n", i, *ptr++);
 }
