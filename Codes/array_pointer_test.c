@@ -7,7 +7,6 @@ main()
 		*(arr + i) = i;
 	}
 	for (i = 0; i != 10; ++i) {
-		printf("%d ", *(arr + i));
+		printf("a[%d] = %d\n", i, *(arr + i));
 	}
-	putchar('\n');
 }
