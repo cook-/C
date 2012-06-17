@@ -3,10 +3,8 @@
 main()
 {
 	int arr[10], i;
-	for (i = 0; i != 10; ++i) {
+	for (i = 0; i != 10; ++i)
 		*(arr + i) = i;
-	}
-	for (i = 0; i != 10; ++i) {
+	for (i = 0; i != 10; ++i)
 		printf("a[%d] = %d\n", i, *(arr + i));
-	}
 }
