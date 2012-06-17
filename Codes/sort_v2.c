@@ -28,7 +28,7 @@ void sort(int *ptr, int n)
 	}
 }
 
-void print_previous(int *ptr,int n)
+void print_original(int *ptr,int n)
 {
 	int i;
 	printf("The original array is: \n");
