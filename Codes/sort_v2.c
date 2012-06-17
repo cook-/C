@@ -31,7 +31,7 @@ void sort(int *ptr, int n)
 void print_previous(int *ptr,int n)
 {
 	int i;
-	printf("The original array is: \n")
+	printf("The original array is: \n");
 	for (i = 0; i != n; ++i)
 		printf("%d ", *(ptr + i));
 	putchar('\n');
