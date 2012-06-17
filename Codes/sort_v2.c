@@ -1,7 +1,7 @@
 /* sort array elements from largest to smallest. */
 #include <stdio.h>
 void sort(int *, int);
-void print(int *, n);
+void print(int *, int);
 
 main()
 {
