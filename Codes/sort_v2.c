@@ -6,9 +6,9 @@ void print(int *, int);
 main()
 {
 	int arr[10] = {3,7,9,11,0,6,7,5,4,2};
-	print(arr);
+	print(arr, 10);
 	sort(arr, 10);
-	print(arr);
+	print(arr, 10);
 }
 
 void sort(int *ptr, int n)
