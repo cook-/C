@@ -6,9 +6,9 @@ void print(int *, int);
 main()
 {
 	int arr[10] = {3,7,9,11,0,6,7,5,4,2};
-	print(arr, 10);
+	print_original(arr, 10);
 	sort(arr, 10);
-	print(arr, 10);
+	print_sorted(arr, 10);
 }
 
 void sort(int *ptr, int n)
@@ -28,10 +28,20 @@ void sort(int *ptr, int n)
 	}
 }
 
-void print(int *ptr,int n)
+void print_previous(int *ptr,int n)
 {
 	int i;
+	printf("The original array is: \n")
 	for (i = 0; i != n; ++i)
 		printf("%d ", *(ptr + i));
-	puts("\n");
+	putchar('\n');
+}
+
+void print_sorted(int *ptr,int n)
+{
+	int i;
+	printf("The sorted array is: \n")
+	for (i = 0; i != n; ++i)
+		printf("%d ", *(ptr + i));
+	putchar('\n');
 }
