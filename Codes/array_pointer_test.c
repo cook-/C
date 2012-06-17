@@ -4,13 +4,13 @@ main()
 {
 	int arr[10], *ptr, i;
 
-	puts("Method 1: \n");
+	puts("Method 1:");
 	for (i = 0; i != 10; ++i)
 		*(arr + i) = i;
 	for (i = 0; i != 10; ++i)
 		printf("a[%d] = %d\n", i, *(arr + i));
 
-	puts("Method 2: \n");
+	puts("Method 2:");
 	ptr = arr;
 	for (i = 0; i != 10; ++i)
 		*ptr++ = i;
