@@ -12,7 +12,7 @@ main()
 {
 	char *str, *strcp;
 	printf("Input a string: ");
-	scanf("%s", str);
+	scanf("%s", *str);
 	cpystr(str, strcp);
 	printf("Old string is \"%s\"\n", *str);
 	printf("New strinf is \"%s\"\n", *strcp);
