@@ -13,6 +13,6 @@ main()
 	char *str = "C language";
 	char *strcp = "               ";
 	cpystr(str, strcp);
-	printf("Old string is \"%s\"\n", *str);
-	printf("New strinf is \"%s\"\n", *strcp);
+	printf("Old string is \"%s\"\n", str);
+	printf("New strinf is \"%s\"\n", strcp);
 }
