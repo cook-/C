@@ -2,7 +2,7 @@
 #include <stdio.h>
 void cpystr(char *pss, char *pds)
 {
-	while ((*pds = *pss) !== '\0') {
+	while ((*pds = *pss) != '\0') {
 		pss++;
 		pds++;
 	}
