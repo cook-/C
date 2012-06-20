@@ -11,8 +11,10 @@ void cpystr(char *pss, char *pds)
 main()
 {
 	char *str = "C language";
-	char *strcp = "               ";
-	cpystr(str, strcp);
+//	char *strcp = "               ";
+	char b[20], *pb;
+	pb = b;
+	cpystr(str, pb);
 	printf("Old string is \"%s\"\n", str);
-	printf("New strinf is \"%s\"\n", strcp);
+	printf("New string is \"%s\"\n", strcp);
 }
