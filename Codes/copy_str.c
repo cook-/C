@@ -1,6 +1,6 @@
 /* copy one string to another */
 #include <stdio.h>
-void cpystr(char *pss, char *pds)
+void cpystr_v1(char *pss, char *pds)
 {
 	while ((*pds = *pss) != '\0') {
 		pss++;
@@ -8,13 +8,23 @@ void cpystr(char *pss, char *pds)
 	}
 }
 
+void cpystr_v2(char *pss, char *pds)
+{
+	while ((*pds++ = *pss++) != '\0')
+		;
+}
+
+void cpystr_v3(char *pss, char *pds)
+{
+	while (*pds++ = *pss++)		//Since the ANSII code is 0.
+		;
+}
+
 main()
 {
 	char *str = "C language";
-	char *strcp = "               ";
-	char b[20], *pb;
-	pb = strcp;
-	cpystr(str, pb);
+	char strcp[20];
+	cpystr(str, strcp);
 	printf("Old string is \"%s\"\n", str);
-	printf("New string is \"%s\"\n", pb);
+	printf("New string is \"%s\"\n", strcp);
 }
