@@ -10,10 +10,9 @@ void cpystr(char *pss, char *pds)
 
 main()
 {
-	string str, strcp;
-	printf("Input a string: ");
-	scanf("%s", &str);
-	cpystr(&str, &strcp);
+	char *str, *strcp;
+	str = "C language";
+	cpystr(str, strcp);
 	printf("Old string is \"%s\"\n", *str);
 	printf("New strinf is \"%s\"\n", *strcp);
 }
