@@ -16,5 +16,5 @@ main()
 	pb = b;
 	cpystr(str, pb);
 	printf("Old string is \"%s\"\n", str);
-	printf("New string is \"%s\"\n", strcp);
+	printf("New string is \"%s\"\n", pb);
 }
