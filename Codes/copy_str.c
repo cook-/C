@@ -11,9 +11,9 @@ void cpystr(char *pss, char *pds)
 main()
 {
 	char *str = "C language";
-//	char *strcp = "               ";
+	char *strcp = "               ";
 	char b[20], *pb;
-	pb = b;
+	pb = strcp;
 	cpystr(str, pb);
 	printf("Old string is \"%s\"\n", str);
 	printf("New string is \"%s\"\n", pb);
