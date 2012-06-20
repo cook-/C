@@ -1,4 +1,5 @@
 /* print the address& value of 2d-array elements */
+#include <stdio.h>
 main()
 {
 	printf("%d,", a);
