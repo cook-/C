@@ -22,8 +22,4 @@ main()
 	printf("%d\n", *(a + 1) + 1);
 	printf("%d,", *(a[1] + 1));
 	printf("%d,\n", *(*(a + 1) + 1));
-	printf("%d\n", );
-	printf("%d\n", );
-	printf("%d\n", );
-	printf("%d\n", );
 }
