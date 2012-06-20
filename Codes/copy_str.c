@@ -1,5 +1,5 @@
 /* copy one string to another */
-#include <>
+#include <stdio.h>
 void cpystr(char *pss, char *pds)
 {
 	while ((*pds = *pss) != '\0') {
