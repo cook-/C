@@ -24,7 +24,7 @@ main()
 {
 	char *str = "C language";
 	char strcp[20];
-	cpystr(str, strcp);
+	cpystr_v1(str, strcp);
 	printf("Old string is \"%s\"\n", str);
 	printf("New string is \"%s\"\n", strcp);
 }
