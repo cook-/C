@@ -3,7 +3,7 @@
 void sort(char**, int);
 void print(char**, int);
 
-main
+main()
 {
 	static char *name[] = { "CHINA", "AMERICA", "AUSTRALIA", 
 							"FRANCE", "GERMAN" };
