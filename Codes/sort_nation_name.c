@@ -4,6 +4,7 @@
 void sort(char **, int);
 void sort(int *, int);
 void print(char **, int);
+void print(int *, int);
 
 main()
 {
@@ -52,4 +53,11 @@ void print(char *name[], int n)
 	int i;
 	for (i = 0; i != n; ++i) 
 		printf("%s\n", *(name + i));
+}
+
+void print(int *num, int n)
+{
+	int i;
+	for (i = 0; i != n; ++i) 
+		printf("%s\n", *(num + i));
 }
