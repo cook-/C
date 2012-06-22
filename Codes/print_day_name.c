@@ -6,7 +6,7 @@ main()
 {
 	int n;
 	printf("Which day?: \n");
-	scanf("%d", n);
+	scanf("%d", &n);
 	printf("Day%d: %s\n", n, day_name(n));
 }
 
