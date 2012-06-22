@@ -25,7 +25,7 @@ void sort(char *name[], int n)
 	for (i = 0; i != n - 1; ++i) {
 		min_index = i;
 		for (j = i + 1; j != n; ++j) {
-			if (strcmp(*(name + min_index), *(name + j)))
+			if (strcmp(*(name + min_index), *(name + j)) > 0)
 				min_index = j;
 		}
 		if (min_index != i) {
