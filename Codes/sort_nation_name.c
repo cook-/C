@@ -34,7 +34,7 @@ void sort(char *name[], int n)
 void sort_num(int *num, int n)
 {
 	int i, j, min_index;
-	char *tmp;
+	int *tmp;
 	for (i = 0; i != n - 1; ++i) {
 		min_index = i;
 		for (j = i + 1; j != n; ++j) {
