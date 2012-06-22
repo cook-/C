@@ -59,5 +59,5 @@ void print_num(int *num, int n)
 {
 	int i;
 	for (i = 0; i != n; ++i) 
-		printf("%s\n", *(num + i));
+		printf("%d\n", *(num + i));
 }
