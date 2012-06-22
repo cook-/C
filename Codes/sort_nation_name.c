@@ -1,5 +1,6 @@
 /* sort nation names in alphabetical order */
 #include <stdio.h>
+#include <string.h>
 void sort(char**, int);
 void print(char**, int);
 
