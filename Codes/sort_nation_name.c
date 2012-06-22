@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 void sort(char **, int);
-void sort(int *, int);
+void sort_num(int *, int);
 void print(char **, int);
-void print(int *, int);
+void print_num(int *, int);
 
 main()
 {
@@ -31,7 +31,7 @@ void sort(char *name[], int n)
 	}
 }
 
-void sort(int *num, int n)
+void sort_num(int *num, int n)
 {
 	int i, j, min_index;
 	char *tmp;
@@ -55,7 +55,7 @@ void print(char *name[], int n)
 		printf("%s\n", *(name + i));
 }
 
-void print(int *num, int n)
+void print_num(int *num, int n)
 {
 	int i;
 	for (i = 0; i != n; ++i) 
