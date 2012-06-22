@@ -13,7 +13,8 @@ main()
 
 void sort(char *name[], int n)
 {
-	int i, j, min_index, *tmp;
+	int i, j, min_index;
+	char *tmp;
 	for (i = 0; i != n - 1; ++i) {
 		min_index = i;
 		for (j = i + 1; j != n; ++j) {
