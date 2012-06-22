@@ -14,8 +14,8 @@ main()
 	print(name, 5);
 
 	static int num[] = { 6, 3, 9, 2, 5 };
-	sort(num, 5);
-	print(num, 5);
+	sort_num(num, 5);
+	print_num(num, 5);
 }
 
 void sort(char *name[], int n)
