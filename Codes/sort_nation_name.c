@@ -12,6 +12,10 @@ main()
 							"FRANCE", "GERMAN" };
 	sort(name, 5);
 	print(name, 5);
+
+	static int num[] = { 6, 3, 9, 2, 5 };
+	sort(num, 5);
+	print(num, 5);
 }
 
 void sort(char *name[], int n)
