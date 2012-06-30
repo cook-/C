@@ -17,9 +17,9 @@ main()
 	int i;
 	for (i = 0; i != NUM; ++i) {
 		printf("Enter %s name: ", nth[i++]);
-		scanf("%s", &memo[i].name);
+		scanf("%s", memo[i].name);
 		printf("  phone number: ");
-		scanf("%s", &memo[i].phone_num);
+		scanf("%s", memo[i].phone_num);
 	}
 
 	puts("\n\t\t\tTelephone Memo");
