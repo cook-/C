@@ -4,16 +4,16 @@
 
 #include <stdio.h>
 #define NUM	3
-struct phone_memo{
-	char name[10];
-	char phone_num[15];
-	};
 
 main()
 {
+	struct phone_memo{
+		char name[10];
+		char phone_num[15];
+	} memo[NUM];
+
 //	enum rank {1st, 2nd, 3rd, 4th, 5th} nth = 1st;
 	char *nth[5] = {"1st", "2nd", "3rd", "4th", "5th"};
-	struct phone_memo memo[NUM];
 	int i;
 	for (i = 0; i != NUM; ++i) {
 		printf("Enter %s name: ", nth[i++]);
