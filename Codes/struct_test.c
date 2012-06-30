@@ -8,7 +8,7 @@
 main()
 {
 	struct phone_memo{
-		char name[10];
+		char name[15];
 		char phone_num[15];
 	} memo[NUM];
 
@@ -22,7 +22,7 @@ main()
 		scanf("%s", memo[i].phone_num);
 	}
 
-	puts("\n\t\tTelephone Memo");
+	puts("\n  Telephone Memo");
 	printf("Name\t\tPhone\n");
 	for (i = 0; i != NUM; ++i)
 		printf("%s\t%s\n", memo[i].name, memo[i].phone_num);
