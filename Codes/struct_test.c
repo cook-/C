@@ -9,6 +9,7 @@ struct member{
 	char phone_num[15];
 	}
 
+void
 main()
 {
 //	enum rank {1st, 2nd, 3rd, 4th, 5th} nth = 1st;
