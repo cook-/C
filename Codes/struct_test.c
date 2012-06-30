@@ -4,12 +4,11 @@
 
 #include <stdio.h>
 #define NUM	3
-struct member{
+struct phone_memo{
 	char name[10];
 	char phone_num[15];
 	};
 
-void
 main()
 {
 //	enum rank {1st, 2nd, 3rd, 4th, 5th} nth = 1st;
