@@ -11,19 +11,19 @@ struct member{
 
 main()
 {
-	enum rank {1st, 2nd, 3rd, 4th, 5th} nth = 1st;
-//	char *nth[5] = {"1st", "2nd", "3rd", "4th", "5th"};
-	struct member memo[NUM];
+//	enum rank {1st, 2nd, 3rd, 4th, 5th} nth = 1st;
+	char *nth[5] = {"1st", "2nd", "3rd", "4th", "5th"};
+	struct phone_memo memo[NUM];
 	int i;
 	for (i = 0; i != NUM; ++i) {
-		printf("Enter %s name: ", nth++);
-		scanf("%s", &memo[i].member.name);
+		printf("Enter %s name: ", nth[i++]);
+		scanf("%s", &memo[i].name);
 		printf("\ \ phone number: ");
-		sacnf("%s", &memo[i].member.phone_num);
+		sacnf("%s", &memo[i].phone_num);
 	}
 
 	puts("\n\t\t\tTelephone Memo");
 	printf("Name\t\tPhone\n");
 	for (i = 0; i != NUM; ++i)
-		printf("%s\t%s\n", memo[i].member.name, memo[i].member.phpne_num);
+		printf("%s\t%s\n", memo[i].name, memo[i].phone_num);
 }
