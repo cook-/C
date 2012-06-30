@@ -19,7 +19,7 @@ main()
 		printf("Enter %s name: ", nth[i++]);
 		scanf("%s", &memo[i].name);
 		printf("\ \ phone number: ");
-		sacnf("%s", &memo[i].phone_num);
+		scanf("%s", &memo[i].phone_num);
 	}
 
 	puts("\n\t\t\tTelephone Memo");
