@@ -22,7 +22,7 @@ main()
 		scanf("%s", memo[i].phone_num);
 	}
 
-	puts("\n\t\t\tTelephone Memo");
+	puts("\n\t\tTelephone Memo");
 	printf("Name\t\tPhone\n");
 	for (i = 0; i != NUM; ++i)
 		printf("%s\t%s\n", memo[i].name, memo[i].phone_num);
