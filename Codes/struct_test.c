@@ -7,7 +7,7 @@
 struct member{
 	char name[10];
 	char phone_num[15];
-	}
+	};
 
 void
 main()
