@@ -16,7 +16,7 @@ main()
 	char *nth[5] = {"1st", "2nd", "3rd", "4th", "5th"};
 	int i;
 	for (i = 0; i != NUM; ++i) {
-		printf("Enter %s name: ", nth[i++]);
+		printf("Enter %s name: ", nth[i]);
 		scanf("%s", memo[i].name);
 		printf("  phone number: ");
 		scanf("%s", memo[i].phone_num);
